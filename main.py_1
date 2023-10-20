@@ -1,0 +1,14 @@
+meme_dict = {
+            "CRINGE": "Something embarrassing and weird",
+            "LOL": "Laugh Out Loud",
+            "ROFL": "Rolling on the floor",
+            "SMH": "Shake My Head (disappointed)",
+            "CREEPY": "Menakutkan, tidak menyenangkan",
+            "AGGRO": "Untuk menjadi agresif/marah"
+            }
+word = input("Ketik kata yang tidka Kamu mengerti (gunakan huruf kapital semua!!):")
+
+if word in meme_dict.keys():
+    print("The dictionary will help you shortly.")
+else:
+    print("The dictionary does not recognize your word.")
